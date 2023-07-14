@@ -105,3 +105,30 @@ VALUES(SEQ_REPLY_NO.NEXTVAL, '샘플1의 댓글2', DEFAULT, 1, 1);
 INSERT INTO REPLY
 VALUES(SEQ_REPLY_NO.NEXTVAL, '샘플1의 댓글3', DEFAULT, 1, 1);
 
+--------------------------------------------------------------------------------
+
+-- 회원 샘플 데이터 추가 삽입
+INSERT INTO MEMBER
+VALUES(SEQ_MEMBER_NO.NEXTVAL, 'user02', 'pass02!', '유저이', 
+    '유저이', NULL, '04540,,서울특별시 강남구 테헤란로 14길 6,,5층',
+     NULL, 2, 'KH정보교육원', DEFAULT, DEFAULT);
+     
+INSERT INTO MEMBER
+VALUES(SEQ_MEMBER_NO.NEXTVAL, 'user03', 'pass03!', '유저삼', 
+    '유저삼', NULL, '04540,,서울특별시 강남구 테헤란로 14길 6,,5층',
+     NULL, 2, 'KH정보교육원', DEFAULT, DEFAULT);
+     
+INSERT INTO MEMBER
+VALUES(SEQ_MEMBER_NO.NEXTVAL, 'user04', 'pass04!', '유저사', 
+    '유저사', NULL, '04540,,서울특별시 강남구 테헤란로 14길 6,,5층',
+     NULL, 2, 'KH정보교육원', DEFAULT, DEFAULT);
+     
+INSERT INTO MEMBER
+VALUES(SEQ_MEMBER_NO.NEXTVAL, 'user05', 'pass05!', '유저오', 
+    '유저오', NULL, '04540,,서울특별시 강남구 테헤란로 14길 6,,5층',
+     NULL, 2, 'KH정보교육원', DEFAULT, DEFAULT);
+     
+INSERT INTO MEMBER
+VALUES(SEQ_MEMBER_NO.NEXTVAL, 'user06', 'pass06!', '유저육', 
+    '유저육', NULL, '04540,,서울특별시 강남구 테헤란로 14길 6,,5층',
+     NULL, 2, 'KH정보교육원', DEFAULT, DEFAULT);
